@@ -1,0 +1,20 @@
+{
+  "type": "device",
+  "build": [
+    {
+      "relativeDir": ".",
+      "cmd": "git clone -b rel_1.3.2 --single-branch --depth 1 https://gitee.com/alios-things/AliOS-Things.git"
+    },
+    {
+      "relativeDir": "AliOS-Things",
+      "cmd": "aos make helloworld@esp32devkitc"
+    }
+  ],
+
+  "downloadConfigs": {
+    "boardType": "esp32",
+    "imageFiles": [
+      "device/AliOS-Things/out/helloworld@esp32devkitc/binary/helloworld@esp32devkitc.bin"
+    ]
+  }
+}

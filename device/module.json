@@ -3,7 +3,7 @@
   "build": [
     {
       "relativeDir": ".",
-      "cmd": "git clone -b rel_1.3.2 --single-branch --depth 1 https://gitee.com/alios-things/AliOS-Things.git"
+      "cmd": "./aos-init.sh"
     },
     {
       "relativeDir": "AliOS-Things",

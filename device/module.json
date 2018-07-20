@@ -8,9 +8,9 @@
   ],
 
   "downloadConfigs": {
-    "boardType": "esp32",
+    "boardType": "developerkit",
     "imageFiles": [
-      "device/AliOS-Things/out/helloworld@esp32devkitc/binary/helloworld@esp32devkitc.bin"
+      "device/AliOS-Things/out/helloworld@developerkit/binary/helloworld@developerkit.bin"
     ]
   }
 }

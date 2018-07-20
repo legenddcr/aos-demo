@@ -3,11 +3,11 @@
   "build": [
     {
       "relativeDir": ".",
-      "cmd": "./aos-init.sh"
+      "cmd": "git clone -b rel_1.3.2 --single-branch --depth 1 https://gitee.com/alios-things/AliOS-Things.git"
     },
     {
       "relativeDir": "AliOS-Things",
-      "cmd": "aos make helloworld@esp32devkitc"
+      "cmd": "aos make helloworld@developerkit"
     }
   ],
 

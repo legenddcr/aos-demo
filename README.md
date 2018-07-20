@@ -1,1 +1,1 @@
-# Hello Wolrd for AliOS on ESP32Devkitc
+# Hello Wolrd for AliOS
